@@ -8,7 +8,7 @@
 
 <div align="center">
   <h3>
-    <a href="https://abdoulaye33.github.io/My-team-page/">
+    <a href="https://luxury-dodol-455e00.netlify.app/">
       Demo
     </a>
     <span> | </span>
