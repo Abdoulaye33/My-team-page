@@ -61,5 +61,7 @@
 }
 
 @media screen and (max-width: 768px) {
-  background-color: blue;
+  body {
+    background-color: blue;
+  }
 }
