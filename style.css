@@ -1,0 +1,56 @@
+@media screen and (min-width: 768px) {
+  nav {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 60px;
+    flex-wrap: wrap;
+  }
+  nav h1 {
+    text-transform: uppercase;
+    font-size: 35px;
+  }
+  nav div {
+    flex-direction: column;
+  }
+  nav div h2 {
+    text-transform: uppercase;
+  }
+  nav div p {
+    line-break: strict;
+    font-size: large;
+  }
+  section span {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    justify-content: space-around;
+  }
+  section span .milieu {
+    padding-top: 100px;
+  }
+  section span .image-container {
+    position: relative;
+    width: 250px;
+  }
+  section span .image-container img {
+    width: 100%;
+  }
+  section span .image-container p.top-right {
+    position: absolute;
+    top: 0;
+    right: 0px;
+    left: 250px;
+    transform: rotate(90deg);
+    margin: 10px;
+    white-space: nowrap;
+  }
+  section span .image-container .middle {
+    top: 0px;
+    bottom: 0px;
+  }
+  section span .image-container h2 {
+    margin: 0;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

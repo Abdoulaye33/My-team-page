@@ -1,0 +1,123 @@
+@media screen and (min-width: 768px) {
+    nav {
+        display: flex;
+        justify-content: space-evenly;
+        padding: 60px;
+        flex-wrap: wrap;
+        & h1 {
+            text-transform: uppercase;
+            font-size: 35px;
+        }
+        & div {
+            flex-direction: column;
+            & h2 {
+                text-transform: uppercase;
+            }
+            & p {
+                line-break: strict;
+                font-size: large;
+            }
+        }
+    }
+    section {
+      & span {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        justify-content: space-around;
+        & .milieu {
+          padding-top: 100px;
+        }
+        
+        & .image-container {
+          position: relative;
+          width: 250px;
+          
+          & img {
+            width: 100%;
+          }
+          
+          & p.top-right {
+            position: absolute;
+            top: 0;
+            right: 0px;
+            left: 250px;
+            transform: rotate(90deg);
+            margin: 10px;
+            white-space: nowrap;
+          }
+    
+          & .middle {
+            top: 0px;
+            bottom: 0px;
+          }
+          
+          & h2 {
+            margin: 0;
+          }
+        }
+      }
+    }
+}
+
+@media screen and (max-width: 768px) {
+  nav {
+        display: flex;
+        justify-content: space-evenly;
+        padding: 60px;
+        flex-wrap: wrap;
+        & h1 {
+            text-transform: uppercase;
+            font-size: 35px;
+        }
+        & div {
+            flex-direction: column;
+            & h2 {
+                text-transform: uppercase;
+            }
+            & p {
+                line-break: strict;
+                font-size: large;
+            }
+        }
+    }
+    section {
+      & span {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        justify-content: space-around;
+        & .milieu {
+          padding-top: 100px;
+        }
+        
+        & .image-container {
+          position: relative;
+          width: 250px;
+          
+          & img {
+            width: 100%;
+          }
+          
+          & p.top-right {
+            position: absolute;
+            top: 0;
+            right: 0px;
+            left: 250px;
+            transform: rotate(90deg);
+            margin: 10px;
+            white-space: nowrap;
+          }
+    
+          & .middle {
+            top: 0px;
+            bottom: 0px;
+          }
+          
+          & h2 {
+            margin: 0;
+          }
+        }
+      }
+    }
+}
